@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Wouldn't it be great to have your own garden?
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Start cultivating!
         </a>
       </header>
     </div>
