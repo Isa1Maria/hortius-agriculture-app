@@ -1,3 +1,4 @@
+import React from 'react';
 
 import './App.css';
 
@@ -8,15 +9,15 @@ function App() {
         
         <p>
           Wouldn't it be great to have your own garden?
+          <br/>
+          But you don't know how to start?
+          <br/>
+          With Hortíos you can learn how to!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <button type="button" class="btn btn-success">
           Start cultivating!
-        </a>
+        </button>
+       
       </header>
     </div>
   );
