@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <p>
+
+       <p>
           Wouldn't it be great to have your own garden?
           <br/>
           But you don't know how to start?
