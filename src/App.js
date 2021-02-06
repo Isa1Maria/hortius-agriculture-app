@@ -1,34 +1,26 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
+import Home from './Components/Pages/Home';
+import About from './Components/Pages/About';
+import Contact from './Components/Pages/Contact';
+import SignUp from './Components/Pages/SignUp';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
+    <>
        <Router>
          <Navbar/>
          <Switch>
-           <Route path='/' exact />
+           <Route path='/' exact component={Home}/>
+           <Route path='/about' exact component={About}/>
+           <Route path='/contact' exact component={Contact}/>
+           <Route path='/sign-up' exact component={SignUp}/>
          </Switch>
          </Router> 
-        
-
-       <p>
-          Wouldn't it be great to have your own garden?
-          <br/>
-          But you don't know how to start?
-          <br/>
-          With Hortíos you can learn how to!
-        </p>
-        <button type="button" class="btn btn-success">
-          Start cultivating!
-        </button>
        
-      </header>
-    </div>
+    </>
   );
 }
 
