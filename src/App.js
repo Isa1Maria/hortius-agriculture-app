@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
 import Contact from './Components/Pages/Contact';
-import Enter from './Components/Pages/Enter';
+import SignUp from './Components/Pages/SignUp';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
            <Route path='/' exact component={Home}/>
            <Route path='/about' exact component={About}/>
            <Route path='/contact' exact component={Contact}/>
-           <Route path='/signup' exact component={Enter}/>
+           <Route path='/sign-up' exact component={SignUp}/>
          </Switch>
          </Router> 
     </div>
