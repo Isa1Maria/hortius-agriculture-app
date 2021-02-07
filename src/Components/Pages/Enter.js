@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import fire from './fire';
+import fire from '../../fire';
 import Login from './Login';
-
+import Home from './Home';
 
 
 const Enter = () => {
@@ -90,7 +90,7 @@ useEffect(() => {
   return (
     <div className="App">
       {user ? (
-        <Main handleLogOut={handleLogOut}/>
+        <Home handleLogOut={handleLogOut}/>
       ) : (
 
        <Login 
