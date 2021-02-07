@@ -7,10 +7,9 @@ function Main() {
     return (
         <div className="main-container">
             <h1> Wouldn't it be great to have your own garden?</h1>
-      <p>But you don't know how to start?
-      <br/>
+      <h2>
           With Hortíos you can learn how to!
-      </p>
+      </h2>
       <div className='main-btns'>
         <Button
           className='btns'
