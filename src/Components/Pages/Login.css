@@ -4,15 +4,15 @@ button {
   color: #fff;
   font-size: calc(16px * var(--scale));
   letter-spacing: 1px;
-  background: #c3c6b1;
+  background: #b8c56e;
   width: 100%;
   padding: 16px 0;
-  margin: 40px 0px 6px 0px;
+  margin: 0px 0px 16px 0px;
   border-radius: 50px;
   transition: all 400ms ease-in-out;
 }
 button:hover {
-  background-color: #91967b;
+  background-color: #b8c56e;
 }
 
 .login .loginContainer {
@@ -43,7 +43,7 @@ button:hover {
   font-size: calc(15px * var(--scale));
   padding: 10px;
   background: rgba(229, 236, 219, 0.1);
-  color: #4b553a;
+  color: #a3862f;
   letter-spacing: 1px;
 }
 

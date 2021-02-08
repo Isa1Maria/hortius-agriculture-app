@@ -12,7 +12,7 @@
 .main-container > h1 {
   color: #647941;
   font-size: 40px;
-  margin-top: -50px;
+  margin-top: -200px;
   margin-left: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
@@ -28,7 +28,7 @@
 }
 
 .main-btns {
-  margin-top: 22px;
+  margin-top: 20px;
   margin-left: 30px;
 }
 

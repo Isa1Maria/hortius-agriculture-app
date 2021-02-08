@@ -2,12 +2,13 @@ import React from 'react';
 import '../App.css';
 import './Main.css';
 import {Button} from './Button';
-import WateringPlant_Isometric from './Images/WateringPlant_Isometric.svg';
+
 
 
 function Main() {
     return (
         <div className="main-container">
+         
             <h1> Wouldn't it be great to have your own garden?</h1>
       <h2>
           With Hortíos you can learn how to!
