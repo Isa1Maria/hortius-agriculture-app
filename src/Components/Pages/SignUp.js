@@ -1,9 +1,10 @@
 import React from 'react';
-import Login from './Login';
+import Enter from './Enter';
+
 
 function SignUp() {
     return (
-        <Login />
+        <Enter />
     )
 }
 

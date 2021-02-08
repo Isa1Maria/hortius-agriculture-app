@@ -3,6 +3,7 @@ import '../App.css';
 import './Main.css';
 import {Button} from './Button';
 
+
 function Main() {
     return (
         <div className="main-container">
@@ -20,6 +21,7 @@ function Main() {
           Start Cultivating!
         </Button>      
         </div>
+      
         </div>
     )
 }
