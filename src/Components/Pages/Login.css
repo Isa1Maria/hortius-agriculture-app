@@ -1,38 +1,10 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (min-width: 360px) {
-    .loginContainer {
-      --scale: 0.8;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .loginContainer {
-      --scale: 1;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .loginContainer {
-      --scale: 1.2;
-    }
-  }
-}
-
 button {
   border: none;
   outline: none;
   color: #fff;
   font-size: calc(16px * var(--scale));
   letter-spacing: 1px;
-  background: #725a4d;
-  box-shadow: 0 30px 70px -20px #546e7a;
+  background: #c3c6b1;
   width: 100%;
   padding: 16px 0;
   margin: 40px 0px 6px 0px;
@@ -40,28 +12,20 @@ button {
   transition: all 400ms ease-in-out;
 }
 button:hover {
-  background-color: #597533;
-}
-
-.login {
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 20px;
-  background: #94c4c2;
-  display: flex;
+  background-color: #91967b;
 }
 
 .login .loginContainer {
-  padding: 70px;
-  margin: 200px auto;
-  border-radius: 35px;
-  width: 65%;
+  padding: 60px;
+  margin: 120px auto;
+  border-radius: 10px;
+  width: 75%;
   max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(228, 245, 245);
-  box-shadow: 0 30px 70px -20px #546e7a;
+  background-color: #fff;
+  box-shadow: 0 5px 5px 5px #f9faf1;
 }
 
 .login .loginContainer label {
@@ -77,9 +41,9 @@ button:hover {
   border: none;
   outline: none;
   font-size: calc(15px * var(--scale));
-  padding: 12px;
-  background: rgba(137, 146, 125, 0.1);
-  color: rgb(74, 74, 78);
+  padding: 10px;
+  background: rgba(229, 236, 219, 0.1);
+  color: #4b553a;
   letter-spacing: 1px;
 }
 

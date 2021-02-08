@@ -22,7 +22,7 @@ function Main() {
           Start Cultivating!
         </Button>      
         </div>
-      <img src={WateringPlant_Isometric} alt="Plant" className='image1' />;
+    
         </div>
     )
 }
