@@ -55,11 +55,11 @@ useEffect(() => {
     </li>
     <li className="nav-item">
         <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-            Sign Up 
+            Login 
         </Link>
     </li>
     </ul>
- {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+ {button && <Button buttonStyle="btn--outline">LOGIN</Button>}
 </div>
             </nav>
         </>

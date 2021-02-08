@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Main.css';
 import {Button} from './Button';
+import WateringPlant_Isometric from './Images/WateringPlant_Isometric.svg';
 
 
 function Main() {
@@ -21,7 +22,7 @@ function Main() {
           Start Cultivating!
         </Button>      
         </div>
-      
+      <img src={WateringPlant_Isometric} alt="Plant" className='image1' />;
         </div>
     )
 }
