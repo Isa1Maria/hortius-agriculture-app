@@ -1,10 +1,10 @@
 .navbar {
-  background: rgba(251, 252, 249, 23);
-  height: 90px;
+  background: #fff;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   position: relative;
-  z-index: 999;
+  z-index: 99;
 }
 
 .navbar-container {
@@ -32,7 +32,7 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 15px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -41,7 +41,7 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 90px;
 }
 
 .nav-links {
