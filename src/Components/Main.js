@@ -2,12 +2,15 @@ import React from 'react';
 import '../App.css';
 import './Main.css';
 import {Button} from './Button';
+import backgroundImage from '../Components/Images/backgroundImage.jpg';
 
 
 
 function Main() {
     return (
-        <div className="main-container">
+        <div className="main-container" 
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+        >
          
             <h1> Wouldn't it be great to have your own garden?</h1>
       <h2>

@@ -7,7 +7,7 @@ function About() {
         <h2>
            Hortíos is a space where you can learn how to cultivate various vegetables, fruits and aromatic herbs.
            <br/>
-           We give you information on how and when to cultivate in the peace of your home.
+           We give you information on how and when to cultivate!
         </h2>
         </div>
     )
